@@ -44,4 +44,4 @@ func dowork(conn net.Conn){
         }
         conn.Write([]byte("i am server from xiecheng"))
 //      conn.close()
-}o.Copy(os.Stdout, rep.Body)
+}
