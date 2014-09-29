@@ -7,7 +7,7 @@ import (
 )
 
 func main(){
-	tcpaddr,err := net.ResolveTCPAddr("tcp","10.16.15.66:7777")
+	tcpaddr,err := net.ResolveTCPAddr("tcp","IP:7777")
 
 	if err!= nil {
 		panic(err.Error())
