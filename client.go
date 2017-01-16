@@ -12,6 +12,7 @@ func main(){
 		panic(err.Error())
 	}
 
+	//new connection
 	conn,err := net.DialTCP("tcp",nil,tcpaddr)
 	if err != nil {
 		panic(err.Error())
